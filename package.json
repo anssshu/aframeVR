@@ -1,0 +1,26 @@
+{
+  "name": "aframeVR",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "http://anssshu.github.io/aframeVR",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anssshu/aframeVR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anssshu/aframeVR/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
