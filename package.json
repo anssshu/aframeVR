@@ -6,6 +6,7 @@
   "homepage": "http://anssshu.github.io/aframeVR",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"mkdir build && cp index.html ./build/index.html",
     "start": "node index.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
