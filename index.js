@@ -7,3 +7,4 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(process.env.PORT || 3000)
+console.log("server running at 127.0.0.1:3000")
